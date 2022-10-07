@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.event-container {
+  display: flex;
+}
+.events-container {
+  display: flex;
+
+  background-color: #64748b;
+  min-height: 100vh;
+  max-width: 60%;
+  flex-direction: column;
+}
+.event-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.header {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-left: 75px;
+  color: white;
+  margin-top: 8px;
+}

@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.list-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 22px;
+}
+.image {
+  height: 160px;
+  width: 160px;
+}
+.name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: white;
+}
+.location {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+}
+.event-button {
+  background: transparent;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+}
+
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 460px;
+}
+.active {
+  border: 2px solid #2dd4bf;
+  border-radius: 10px;
+}
